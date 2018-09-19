@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#F7F7F7;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+	}
+.navbar-light .navbar-brand{
+	color:#fff
+	}
+.navbar-light .navbar-nav .nav-link{
+	color:#fff
+	}
+.carousel-inner .overlay{
+	position:absolute;
+	z-index:2;
+	left:100px;
+	bottom:40px;
+	
+	}
+.carousel-inner .overlay h1{
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:60px;
+	color:#F7F7F7;
+	}
+		
+.articl{
+	margin:10px
+	}
+	
+.ads{
+	background-color:#CFCFCF;
+	width:984px;
+	border:5px solid #ADACAC;
+	margin-bottom:25px;
+	margin-top:55px
+	}
+.ads img{
+	width:100%
+	}
+@media(max-width: 575.98px){
+	.ads img{
+		display:none;
+		}
+	}	
+.footer{
+	background-color:#28a745;
+	color:#fff;
+	}
+.footer .container{
+	margin:0px;
+	}
+.footer .social li{
+	display:inline-block;
+	line-height:4;
+	}
+.footer ul{ 
+	margin:50px 150px
+}	
+.footer  a{
+	color:#fff;
+	}	
+	
+.footer p{
+	padding-bottom:20px
+	}
+/*restaurant*/
+
+.article{
+	margin:20px;
+	border: 3px solid #9E9D9D;
+	background-color:#F1F0F0;
+	border-radius:5px;
+
+	}
+.article-content{
+	padding:10px
+	}	
+.article .article-content img{
+	width:200px;
+	height:100px;
+	margin-bottom:5px;
+	margin-right:10px;
+	float:left
+	}	
+.article a{
+	background-color:#28a745;
+	border-radius:3px;
+	color:#fff;
+	padding:5px 10px
+	}
+.article a:hover{
+	text-decoration:none;
+	font-style:italic
+	}	
+.advs img{
+	width:100%;
+	height:600px; 
+	margin:20px;
+	
+	}	
+	
+	
+	
+	
+	
+	
+	
